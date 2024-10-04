@@ -16,6 +16,17 @@ main {
     padding: 2rem;
 }
 
+#logo{
+
+    width: 10%;
+    height: 10%;
+
+}
+
+.top{
+    position: relative;
+}
+
 .link-list {
     list-style-type: none;
     padding: 0;
