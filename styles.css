@@ -10,6 +10,43 @@ header {
     color: black;
     padding: 1rem;
     text-align: center;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    
+}
+
+nav li {
+    margin: 0.5rem 0;
+    margin-right: 1rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #395236;
+}
+.logo {
+    
+    padding-left: 90em;
+    
 }
 
 main {
