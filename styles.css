@@ -1,22 +1,23 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333333;
+    background-color: #181818;
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 header {
     background-color: #24df28;
     color: black;
-    padding: 1rem;
     text-align: center;
 }
 
 main {
-    padding: 2rem;
+    flex: 1;
+    padding: 0px 100px 0px 100px;
 }
-
-
 
 h1{
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
@@ -26,11 +27,14 @@ h2{
     color: #24df28;
 }
 
+p{
+    color: #90e992;
+}
+
 #logo{
 
     width: 10%;
     height: 10%;
-
 }
 
 .top{
@@ -59,10 +63,7 @@ h2{
 
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #24df28;
+    padding: 100px 0px 100px 0px;
+    background-color: #181818;
     color: black;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
