@@ -23,7 +23,6 @@ h1{
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 
-
 h2{
     color: #24df28;
 }
@@ -32,6 +31,11 @@ p{
     color: #90e992;
 }
 
+pre{
+    color: #90e992;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
 
 .navbarul {
     list-style-type: none;
